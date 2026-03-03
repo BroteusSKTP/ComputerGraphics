@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <script src="lib/x3dom/x3dom-full.js"></script>
+    <link rel='stylesheet' type='text/css' href='lib/x3dom/x3dom.css' />
+    <style>
+        x3d,
+        X3D {
+            border: 0px;
+        }
+    </style>
+    <script src="Animação_X3D.js"></script>
+    <title>Animação X3D</title>
+</head>
+
+<body>
+    <div style="width: 45%;text-align: center;">
+        <x3d width="1230px" height="530px">
+            <scene>
+                <inline id="X3D_Object" nameSpaceName="X3D" mapDEFToID="true" url="Animação.x3d"></inline>
+            </scene>
+        </x3d>
+    </div>
+    <div id="terminal" style="
+            font-family: monospace;
+            background-color: LightCyan;
+            color: black;
+            text-align: center;"></div>
+    <script>
+        TEST_FLAG = true;
+        main();
+    </script>
+</body>
+
+</html>

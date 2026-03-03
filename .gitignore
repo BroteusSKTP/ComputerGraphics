@@ -1,0 +1,31 @@
+# Dependencies and Build Artifacts
+node_modules/
+package-lock.json
+dist/
+build/
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Don't ignore lib folders - they are required!
+# DO NOT add lib/ to gitignore

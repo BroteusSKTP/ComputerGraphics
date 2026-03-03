@@ -1,0 +1,1112 @@
+<x3d width="1230px" height="530px">
+  <scene id="picture">
+    <ViewPoint position="0 0.5 6" orientation="0 0 0 1"></ViewPoint>
+
+    <transform id="cenario">
+      <transform id="relva">
+        <transform 
+          translation="0 -0.7 0"
+          scale="12 0.01 7">
+          <shape>
+            <appearance>
+              <commonsurfaceshader
+                specularFactor="1 1 1"
+                shininessFactor="5">
+              <imagetexture containerField="diffuseTexture" 
+                url="../assets/textures/grass_d.png"></imagetexture>
+              <imagetexture containerField="specularTexture"
+                url="../assets/textures/grass_s.png"></imagetexture>
+              <imagetexture containerField="normalTexture"
+                url="../assets/textures/grass_n.png"></imagetexture>
+              </commonsurfaceshader>
+            </appearance>
+            <box size="1 1 1">
+            </box>
+          </shape>
+        </transform>
+      </transform>
+      
+      <transform id="estrada" scale="1 1 2.5">
+        <transform id="piso">
+          <transform 
+          translation="0 -0.7 1"
+          scale="12 0.02 0.3">
+            <shape>
+            <appearance>
+              <commonsurfaceshader
+                specularFactor="1 1 1"
+                shininessFactor="5">
+              <imagetexture containerField="diffuseTexture" 
+                url="../assets/textures/rock_d.png"></imagetexture>
+              <imagetexture containerField="specularTexture"
+                url="../assets/textures/rock_s.png"></imagetexture>
+              <imagetexture containerField="normalTexture"
+                url="../assets/textures/rock_n.png"></imagetexture>
+              </commonsurfaceshader>
+            </appearance>
+              <box size="1 1 1">
+              </box>
+            </shape>
+          </transform>
+        </transform>
+
+        <transform id="berma1">
+          <transform 
+          translation="0 -0.69 0.85" 
+          scale="12 0.01 0.015">
+            <shape>
+              <appearance>
+                <twosidedmaterial diffuseColor="white">
+                </twosidedmaterial>
+              </appearance>
+              <box size="1 1 1">
+              </box>
+            </shape>
+          </transform>
+        </transform>
+
+        <transform id="berma2">
+          <transform 
+          translation="0 -0.69 1.15" 
+          scale="12 0.01 0.015">
+            <shape>
+              <appearance>
+                <twosidedmaterial diffuseColor="white">
+                </twosidedmaterial>
+              </appearance>
+              <box size="1 1 1">
+              </box>
+            </shape>
+          </transform>
+        </transform>
+
+        <transform id="linha1">
+          <transform 
+          translation="5 -0.69 1" 
+          scale="0.5 0.01 0.03">
+            <shape>
+              <appearance>
+                <twosidedmaterial diffuseColor="white">
+                </twosidedmaterial>
+              </appearance>
+              <box size="1 1 1">
+              </box>
+            </shape>
+          </transform>
+        </transform>
+
+        <transform id="linha2">
+          <transform 
+          translation="3.5 -0.69 1" 
+          scale="0.5 0.01 0.03">
+            <shape>
+              <appearance>
+                <twosidedmaterial diffuseColor="white">
+                </twosidedmaterial>
+              </appearance>
+              <box size="1 1 1">
+              </box>
+            </shape>
+          </transform>
+        </transform>
+
+        <transform id="linha3">
+          <transform 
+          translation="2 -0.69 1" 
+          scale="0.5 0.01 0.03">
+            <shape>
+              <appearance>
+                <twosidedmaterial diffuseColor="white">
+                </twosidedmaterial>
+              </appearance>
+              <box size="1 1 1">
+              </box>
+            </shape>
+          </transform>
+        </transform>
+
+        <transform id="linha4">
+          <transform 
+          translation="0.5 -0.69 1" 
+          scale="0.5 0.01 0.03">
+            <shape>
+              <appearance>
+                <twosidedmaterial diffuseColor="white">
+                </twosidedmaterial>
+              </appearance>
+              <box size="1 1 1">
+              </box>
+            </shape>
+          </transform>
+        </transform>
+
+        <transform id="linha5">
+          <transform 
+          translation="-1 -0.69 1" 
+          scale="0.5 0.01 0.03">
+            <shape>
+              <appearance>
+                <twosidedmaterial diffuseColor="white">
+                </twosidedmaterial>
+              </appearance>
+              <box size="1 1 1">
+              </box>
+            </shape>
+          </transform>
+        </transform>
+
+        <transform id="linha6">
+          <transform 
+          translation="-2.5 -0.69 1" 
+          scale="0.5 0.01 0.03">
+            <shape>
+              <appearance>
+                <twosidedmaterial diffuseColor="white">
+                </twosidedmaterial>
+              </appearance>
+              <box size="1 1 1">
+              </box>
+            </shape>
+          </transform>
+        </transform>
+
+        <transform id="linha7">
+          <transform 
+          translation="-4 -0.69 1" 
+          scale="0.5 0.01 0.03">
+            <shape>
+              <appearance>
+                <twosidedmaterial diffuseColor="white">
+                </twosidedmaterial>
+              </appearance>
+              <box size="1 1 1">
+              </box>
+            </shape>
+          </transform>
+        </transform>
+
+        <transform id="linha8">
+          <transform 
+          translation="-5.5 -0.69 1" 
+          scale="0.5 0.01 0.03">
+            <shape>
+              <appearance>
+                <twosidedmaterial diffuseColor="white">
+                </twosidedmaterial>
+              </appearance>
+              <box size="1 1 1">
+              </box>
+            </shape>
+          </transform>
+        </transform>
+      </transform>
+
+      <transform id="sol">
+        <transform 
+          translation="0 8 0">
+          <shape>
+            <appearance>
+              <twosidedmaterial 
+              emissiveColor="#ffff33"
+              transparency="0.2">
+              </twosidedmaterial>
+            </appearance>
+            <sphere radius="0.6">
+            </sphere>
+          </shape>
+          <DirectionalLight
+            direction="0 -1 -0.5" 
+            color="#ffff33" 
+            intensity="0.5"
+            shadowIntensity="0.5">
+          </DirectionalLight>
+        </transform>
+      </transform>
+    
+      <transform id="arvore" translation="0.5 0 0">
+        <transform id="tronco">
+          <transform 
+          translation="2 -0.09 0"
+          scale="1 1 1">
+            <shape>
+              <appearance>
+                <commonsurfaceshader
+                  specularFactor="1 1 1"
+                  shininessFactor="5">
+                <imagetexture containerField="diffuseTexture" 
+                  url="../assets/textures/tronco_d.png"></imagetexture>
+                <imagetexture containerField="specularTexture"
+                  url="../assets/textures/tronco_s.png"></imagetexture>
+                <imagetexture containerField="normalTexture"
+                  url="../assets/textures/tronco_n.png"></imagetexture>
+                </commonsurfaceshader>
+              </appearance>
+              <cylinder height="1.2" radius="0.05">
+              </cylinder>
+            </shape>
+          </transform>
+        </transform>
+
+        <transform id="folhas">
+          <transform 
+          translation="2 1.7 0"
+          scale="1.2 1.2 1.2">
+            <shape>
+              <appearance>
+                <commonsurfaceshader
+                  specularFactor="1 1 1"
+                  shininessFactor="5">
+                <imagetexture containerField="diffuseTexture" 
+                  url="../assets/textures/euca_d.png"></imagetexture>
+                <imagetexture containerField="specularTexture"
+                  url="../assets/textures/grass_s.png"></imagetexture>
+                <imagetexture containerField="normalTexture"
+                  url="../assets/textures/grass_n.png"></imagetexture>
+                </commonsurfaceshader>
+              </appearance>
+              <cone bottomradius="0.4" height="2">
+              </cone>
+            </shape>
+          </transform>
+        </transform>
+      </transform>
+
+      <transform id="pedra">
+        <transform 
+        translation="-3 -0.68 0"
+        scale="2 2 2"
+        rotation="0 1 0 -1.20">
+          <shape>
+            <appearance>
+              <commonsurfaceshader
+                specularFactor="1 1 1"
+                shininessFactor="5">
+              <imagetexture containerField="diffuseTexture" 
+                url="../assets/textures/rock_d.png"></imagetexture>
+              <imagetexture containerField="specularTexture"
+                url="../assets/textures/rock_s.png"></imagetexture>
+              <imagetexture containerField="normalTexture"
+                url="../assets/textures/rock_n.png"></imagetexture>
+              </commonsurfaceshader>
+            </appearance>
+            <indexedfaceset 
+              coordIndex="
+                0 2 1 -1
+                0 3 2 -1
+                0 4 3 -1
+                0 4 5 -1
+                0 6 5 -1
+                0 7 6 -1
+                0 8 7 -1
+                0 1 8 -1
+
+                9 8 1 -1
+                1 2 9 -1
+                2 3 9 -1
+
+                3 4 10 -1
+                9 3 10 -1
+                10 4 5 -1
+                10 5 6 -1
+
+                10 6 11 -1
+                11 6 7 -1
+                11 9 10 -1
+                11 7 8 -1
+                11 8 1 -1
+                11 1 9 -1
+              "
+              texCoordIndex="
+                0 1 2 -1
+                0 1 2 -1
+                0 1 2 -1
+                0 1 2 -1
+                0 1 2 -1
+                0 1 2 -1
+                0 1 2 -1
+                0 1 2 -1
+
+                0 1 2 -1
+                0 1 2 -1
+                0 1 2 -1
+
+                0 1 2 -1
+                0 1 2 -1
+                0 1 2 -1
+                0 1 2 -1
+
+                0 1 2 -1
+                0 1 2 -1
+                0 1 2 -1
+                0 1 2 -1
+                0 1 2 -1
+                0 1 2 -1
+              ">
+              <coordinate point="
+                0    0  0
+                0.3  0  0
+                0.4  0 -0.3
+                0.1  0 -0.5
+               -0.3  0 -0.2
+               -0.5  0 -0.4
+               -0.6  0  0.2
+               -0.2  0  0.5
+                0.2  0  0.4
+
+                0.1 0.2  0
+               -0.3 0.4 -0.1
+
+               -0.4 0.7 0.6
+              ">
+              </coordinate>
+              <texturecoordinate point="
+                0    0
+                1    0
+                0.5  1
+                ">
+              </texturecoordinate>
+            </indexedfaceset>
+          </shape>
+        </transform>
+      </transform>
+    </transform>
+
+    <transform id="casa" 
+      translation="0 -0.1 0"
+      scale="1.2 1.2 1.2">
+      <transform id="parede_t">
+        <transform 
+          scale="1 1 0.1">
+          <shape>
+            <appearance>
+              <commonsurfaceshader
+                specularFactor="1 1 1"
+                shininessFactor="5">
+              <imagetexture containerField="diffuseTexture" 
+                url="../assets/textures/parede_d.png"></imagetexture>
+              <imagetexture containerField="specularTexture"
+                url="../assets/textures/parede_s.png"></imagetexture>
+              <imagetexture containerField="normalTexture"
+                url="../assets/textures/parede_n.png"></imagetexture>
+              </commonsurfaceshader>
+            </appearance>
+            <box size="1 1 1">
+            </box>
+          </shape>
+        </transform>
+      </transform>
+
+      <transform id="parede_d">
+        <transform 
+          scale="1 1 0.1"
+          rotation="0 1 0 1.57">
+          <shape>
+            <appearance>
+              <commonsurfaceshader
+                specularFactor="1 1 1"
+                shininessFactor="5">
+              <imagetexture containerField="diffuseTexture" 
+                url="../assets/textures/parede_d.png"></imagetexture>
+              <imagetexture containerField="specularTexture"
+                url="../assets/textures/parede_s.png"></imagetexture>
+              <imagetexture containerField="normalTexture"
+                url="../assets/textures/parede_n.png"></imagetexture>
+              </commonsurfaceshader>
+            </appearance>
+            <box size="0.9 1 1">
+            </box>
+          </shape>
+        </transform>
+      </transform>
+
+      <transform id="parede_e">
+        <transform 
+          scale="1 1 0.1"
+          rotation="0 1 0 1.57">
+          <shape>
+            <appearance>
+              <commonsurfaceshader
+                specularFactor="1 1 1"
+                shininessFactor="5">
+              <imagetexture containerField="diffuseTexture" 
+                url="../assets/textures/parede_d.png"></imagetexture>
+              <imagetexture containerField="specularTexture"
+                url="../assets/textures/parede_s.png"></imagetexture>
+              <imagetexture containerField="normalTexture"
+                url="../assets/textures/parede_n.png"></imagetexture>
+              </commonsurfaceshader>
+            </appearance>
+            <box size="0.9 1 1">
+            </box>
+          </shape>
+        </transform>
+      </transform>
+
+      <transform id="parede_f">
+        <transform 
+          scale="1 1 0.1">
+          <shape>
+            <appearance>
+              <commonsurfaceshader
+                specularFactor="1 1 1"
+                shininessFactor="5">
+              <imagetexture containerField="diffuseTexture" 
+                url="../assets/textures/parede_d.png"></imagetexture>
+              <imagetexture containerField="specularTexture"
+                url="../assets/textures/parede_s.png"></imagetexture>
+              <imagetexture containerField="normalTexture"
+                url="../assets/textures/parede_n.png"></imagetexture>
+              </commonsurfaceshader>
+            </appearance>
+              <indexedfaceset 
+                coordIndex="
+                  0 25 33 3 -1
+                  33 26 27 32 -1
+                  32 24 6 7 -1
+                  8 4 7 11 -1
+                  5 9 10 6 -1
+                  5 1 2 4 -1
+
+                  0 12 29 25 -1
+                  24 28 13 1 -1
+                  1 13 14 2 -1
+                  3 2 14 15 -1
+                  3 15 12 0 -1
+
+                  15 34 29 12 -1
+                  30 34 35 31 -1
+                  35 19 18 28 -1
+                  19 16 20 23 -1
+                  22 21 17 18 -1
+                  16 14 13 17 -1
+
+                  23 20 8 11 -1
+                  20 21 9 8 -1
+                  10 9 21 22 -1
+                  11 10 22 23 -1
+
+                  25 29 30 26 -1
+                  26 30 31 27 -1
+                  27 31 28 24 -1
+                "
+                texCoordIndex="
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                ">
+                <coordinate point="
+                  0     0     0
+                  1     0     0
+                  1     1     0
+                  0     1     0
+                  0.85  1     0
+                  0.85  0     0
+                  0.55  0     0
+                  0.55  1     0
+                  0.85  0.85  0
+                  0.85  0.55  0
+                  0.55  0.55  0
+                  0.55  0.85  0
+
+
+                  0     0     -1
+                  1     0     -1
+                  1     1     -1
+                  0     1     -1
+                  0.85  1     -1
+                  0.85  0     -1
+                  0.55  0     -1
+                  0.55  1     -1
+                  0.85  0.85  -1
+                  0.85  0.55  -1
+                  0.55  0.55  -1
+                  0.55  0.85  -1
+
+                  0.45  0     0
+                  0.15  0     0
+                  0.15  0.85  0
+                  0.45  0.85  0
+                  0.45  0     -1
+                  0.15  0     -1
+                  0.15  0.85  -1
+                  0.45  0.85  -1
+
+                  0.45  1     0
+                  0.15  1     0
+                  0.15  1     -1
+                  0.45  1     -1
+                ">
+                </coordinate>
+                <texturecoordinate point="
+                  0    0
+                  1    0
+                  1    1
+                  0    1
+                  ">
+                </texturecoordinate>
+              </indexedfaceset>
+          </shape>
+        </transform>
+      </transform>
+
+      <transform id="door">
+        <transform 
+          scale="0.3 0.85 0.1">
+          <shape>
+            <appearance>
+              <commonsurfaceshader
+                specularFactor="1 1 1"
+                shininessFactor="5">
+              <imagetexture containerField="diffuseTexture" 
+                url="../assets/textures/door_d.png"></imagetexture>
+              <imagetexture containerField="specularTexture"
+                url="../assets/textures/door_s.png"></imagetexture>
+              <imagetexture containerField="normalTexture"
+                url="../assets/textures/door_n.png"></imagetexture>
+              </commonsurfaceshader>
+            </appearance>
+            <box size="1 1 1">
+            </box>
+          </shape>
+        </transform>
+      </transform>
+
+      <transform id="janela">
+        <transform 
+          scale="1.1 1 0.01"
+          rotation="0 0 1 -0.775">
+          <shape>
+            <appearance>
+              <twosidedmaterial 
+              diffuseColor="#b3ffff"
+              transparency="0.5">
+                </twosidedmaterial>
+            </appearance>
+            <indexedfaceset 
+                coordIndex="
+                  0 6 13 7 -1
+                  2 0 7 9 -1
+                  9 10 3 2 -1
+                  4 3 10 11 -1
+                  11 13 6 4 -1
+                  6 0 1 5 -1
+                  8 7 13 12 -1
+
+                  3 1 2 -1
+                  4 5 3 -1
+                  9 8 10 -1
+                  11 10 12 -1
+                "
+                texCoordIndex="
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+
+                  0 1 4 -1
+                  0 1 4 -1
+                  0 1 4 -1
+                  0 1 4 -1
+                ">
+                <coordinate point="
+                  0.15    0     0
+                  0.15    0.25  0
+                  0.15    0.35  0
+                  0       0.25  0
+                  -0.15   0.35  0
+                  -0.15   0.25  0
+                  -0.15   0     0
+
+                  0.15    0     -1
+                  0.15    0.25  -1
+                  0.15    0.35  -1
+                  0       0.25  -1
+                  -0.15   0.35  -1
+                  -0.15   0.25  -1
+                  -0.15   0     -1
+                ">
+                </coordinate>
+                <texturecoordinate point="
+                  0    0
+                  1    0
+                  1    1
+                  0    1
+                  0.5  1
+                  ">
+                </texturecoordinate>
+              </indexedfaceset>
+          </shape>
+        </transform>
+      </transform>
+
+      <transform id="telha_e">
+        <transform 
+          scale="1 1 1"
+          rotation="0 1 0 -1.57">
+          <shape>
+            <appearance>
+              <commonsurfaceshader
+                specularFactor="1 1 1"
+                shininessFactor="5">
+              <imagetexture containerField="diffuseTexture" 
+                url="../assets/textures/telha_d.png"></imagetexture>
+              <imagetexture containerField="specularTexture"
+                url="../assets/textures/telha_s.png"></imagetexture>
+              <imagetexture containerField="normalTexture"
+                url="../assets/textures/telha_n.png"></imagetexture>
+              </commonsurfaceshader>
+            </appearance>
+              <indexedfaceset 
+                coordIndex="
+                  2 4 3 0 -1
+
+                  0 3 1 -1
+                  2 1 4 -1
+                  0 1 2 -1
+                  1 3 4 -1
+                "
+                texCoordIndex="
+                  0 1 2 3 -1
+                  
+                  0 1 4 -1
+                  0 1 4 -1
+                  0 1 4 -1
+                  0 1 4 -1
+                ">
+                <coordinate point="
+                  0.525     0       0
+                  0       0.87    -0.5
+                  -0.525    0       0
+                  0.525     0       -0.1
+                  -0.525    0       -0.1
+                ">
+                </coordinate>
+                <texturecoordinate point="
+                  0    0
+                  1    0
+                  1    1
+                  0    1
+                  0.5  1
+                  ">
+                </texturecoordinate>
+              </indexedfaceset>
+          </shape>
+        </transform>
+      </transform>
+
+      <transform id="telha_d">
+        <transform 
+          scale="1 1 1"
+          rotation="0 1 0 1.57">
+          <shape>
+            <appearance>
+              <commonsurfaceshader
+                specularFactor="1 1 1"
+                shininessFactor="5">
+              <imagetexture containerField="diffuseTexture" 
+                url="../assets/textures/telha_d.png"></imagetexture>
+              <imagetexture containerField="specularTexture"
+                url="../assets/textures/telha_s.png"></imagetexture>
+              <imagetexture containerField="normalTexture"
+                url="../assets/textures/telha_n.png"></imagetexture>
+              </commonsurfaceshader>
+            </appearance>
+              <indexedfaceset 
+                coordIndex="
+                  2 4 3 0 -1
+
+                  0 3 1 -1
+                  2 1 4 -1
+                  0 1 2 -1
+                  1 3 4 -1
+                "
+                texCoordIndex="
+                  0 1 2 3 -1
+                  
+                  0 1 4 -1
+                  0 1 4 -1
+                  0 1 4 -1
+                  0 1 4 -1
+                ">
+                <coordinate point="
+                  0.525     0       0
+                  0       0.87    -0.5
+                  -0.525    0       0
+                  0.525     0       -0.1
+                  -0.525    0       -0.1
+                ">
+                </coordinate>
+                <texturecoordinate point="
+                  0    0
+                  1    0
+                  1    1
+                  0    1
+                  0.5  1
+                  ">
+                </texturecoordinate>
+              </indexedfaceset>
+          </shape>
+        </transform>
+      </transform>
+
+      <transform id="telha_f">
+        <transform 
+          scale="1 1 1">
+          <shape>
+            <appearance>
+              <commonsurfaceshader
+                specularFactor="1 1 1"
+                shininessFactor="5">
+              <imagetexture containerField="diffuseTexture" 
+                url="../assets/textures/telha_d.png"></imagetexture>
+              <imagetexture containerField="specularTexture"
+                url="../assets/textures/telha_s.png"></imagetexture>
+              <imagetexture containerField="normalTexture"
+                url="../assets/textures/telha_n.png"></imagetexture>
+              </commonsurfaceshader>
+            </appearance>
+              <indexedfaceset 
+                coordIndex="
+                  1 2 0 -1
+                  7 0 2 -1
+                  7 2 3 -1
+                  7 3 4 -1
+                  4 5 6 -1
+                  7 4 6 -1
+
+                  9 8 10 -1
+                  15 10 8 -1
+                  15 11 10 -1
+                  15 12 11 -1
+                  12 14 13 -1
+                  15 14 12 -1
+
+                  0 8 9 1 -1
+                  9 10 2 1 -1
+                  2 10 11 3 -1
+                  4 3 11 12 -1
+                  4 12 13 5 -1
+                  6 5 13 14 -1
+                  14 15 7 6 -1
+                  7 15 8 0 -1
+                "
+                texCoordIndex="
+                  1 2 0 -1
+                  7 0 2 -1
+                  7 2 3 -1
+                  7 3 4 -1
+                  4 5 6 -1
+                  7 4 6 -1
+
+                  1 0 2 -1
+                  7 2 0 -1
+                  7 3 2 -1
+                  7 4 3 -1
+                  4 6 5 -1
+                  7 6 4 -1
+
+                  8 9 10 11 -1
+                  8 9 10 11 -1
+                  8 9 10 11 -1
+                  8 9 10 11 -1
+                  8 9 10 11 -1
+                  8 9 10 11 -1
+                  8 9 10 11 -1
+                  8 9 10 11 -1
+                ">
+                <coordinate point="
+                  0.45     0       0
+                  0.29     0.35    -0.2
+                  -0.25   0.3     -0.17
+                  -0.12   0.45    -0.26
+                  -0.16   0.5     -0.29
+                  0.14     0.62    -0.35
+                  0       0.87    -0.525
+                  -0.45    0       0
+
+                  0.45     0       -0.1
+                  0.29     0.35    -0.3
+                  -0.25   0.3     -0.27
+                  -0.12   0.45    -0.36
+                  -0.16   0.5     -0.39
+                  0.14     0.62    -0.45
+                  0       0.87    -0.525
+                  -0.45    0       -0.1
+                ">
+                </coordinate>
+                <texturecoordinate point="
+                  0.5     0       
+                  0.3     0.35    
+                  -0.25   0.3     
+                  -0.15   0.45    
+                  -0.18   0.5     
+                  0.1     0.75    
+                  0       0.87    
+                  -0.5    0       
+                  0       0
+                  0       1
+                  1       1
+                  0       1
+                  ">
+                </texturecoordinate>
+              </indexedfaceset>
+          </shape>
+        </transform>
+      </transform>
+
+      <transform id="telha_t">
+        <transform 
+          scale="1 1 1"
+          rotation="0 1 0 3.14">
+          <shape>
+            <appearance>
+              <commonsurfaceshader
+                specularFactor="1 1 1"
+                shininessFactor="5">
+              <imagetexture containerField="diffuseTexture" 
+                url="../assets/textures/telha_d.png"></imagetexture>
+              <imagetexture containerField="specularTexture"
+                url="../assets/textures/telha_s.png"></imagetexture>
+              <imagetexture containerField="normalTexture"
+                url="../assets/textures/telha_n.png"></imagetexture>
+              </commonsurfaceshader>
+            </appearance>
+              <indexedfaceset 
+                coordIndex="
+                  2 4 3 0 -1
+
+                  0 3 1 -1
+                  2 1 4 -1
+                  0 1 2 -1
+                  1 3 4 -1
+                "
+                texCoordIndex="
+                  0 1 2 3 -1
+                  
+                  0 1 4 -1
+                  0 1 4 -1
+                  0 1 4 -1
+                  0 1 4 -1
+                ">
+                <coordinate point="
+                  0.5     0       0
+                  0       0.87    -0.525
+                  -0.5    0       0
+                  0.5     0       -0.1
+                  -0.5    0       -0.1
+                ">
+                </coordinate>
+                <texturecoordinate point="
+                  0    0
+                  1    0
+                  1    1
+                  0    1
+                  0.5  1
+                  ">
+                </texturecoordinate>
+              </indexedfaceset>
+          </shape>
+        </transform>
+      </transform>
+
+      <transform id="grade" 
+        rotation="1 0 0 -0.50">
+
+        <transform id="vara1">
+          <transform 
+            translation="-0.07 0 0"
+            scale="0.025 0.5 0.05">
+            <shape>
+              <appearance>
+                <twosidedmaterial diffuseColor="gray">
+                </twosidedmaterial>
+              </appearance>
+              <box size="1 1 1">
+              </box>
+            </shape>
+          </transform>
+        </transform>
+
+        <transform id="vara2">
+          <transform 
+            translation="0.07 0 0"
+            scale="0.025 0.5 0.05">
+            <shape>
+              <appearance>
+                <twosidedmaterial diffuseColor="gray">
+                </twosidedmaterial>
+              </appearance>
+              <box size="1 1 1">
+              </box>
+            </shape>
+          </transform>
+        </transform>
+
+        <transform id="vara3">
+          <transform 
+            translation="0 0 0"
+            scale="0.025 0.5 0.05">
+            <shape>
+              <appearance>
+                <twosidedmaterial diffuseColor="gray">
+                </twosidedmaterial>
+              </appearance>
+              <box size="1 1 1">
+              </box>
+            </shape>
+          </transform>
+        </transform>
+
+        <transform id="vara4">
+          <transform 
+            translation="-0.14 -0.1 0"
+            scale="0.025 0.3 0.05">
+            <shape>
+              <appearance>
+                <twosidedmaterial diffuseColor="gray">
+                </twosidedmaterial>
+              </appearance>
+              <box size="1 1 1">
+              </box>
+            </shape>
+          </transform>
+        </transform>
+        <transform id="vara5">
+          <transform 
+            translation="0.14 -0.13 0"
+            scale="0.025 0.40 0.05">
+            <shape>
+              <appearance>
+                <twosidedmaterial diffuseColor="gray">
+                </twosidedmaterial>
+              </appearance>
+              <box size="1 1 1">
+              </box>
+            </shape>
+          </transform>
+        </transform>
+      </transform>
+
+      <transform id="madeiro">
+          <transform 
+            scale="1 1 1"
+            rotation="1 0 1 -0.60">
+            <shape>
+              <appearance>
+              <commonsurfaceshader
+                  specularFactor="1 1 1"
+                  shininessFactor="5">
+                <imagetexture containerField="diffuseTexture" 
+                  url="../assets/textures/tronco_d.png"></imagetexture>
+                <imagetexture containerField="specularTexture"
+                  url="../assets/textures/tronco_s.png"></imagetexture>
+                <imagetexture containerField="normalTexture"
+                  url="../assets/textures/tronco_n.png"></imagetexture>
+                </commonsurfaceshader>
+              </appearance>
+              <cylinder height="0.7" radius="0.05">
+              </cylinder>
+            </shape>
+          </transform>
+        </transform>
+
+        <transform id="chamine">
+        <transform 
+          scale="1 1 1">
+          <shape>
+            <appearance>
+              <commonsurfaceshader
+                specularFactor="1 1 1"
+                shininessFactor="5">
+              <imagetexture containerField="diffuseTexture" 
+                url="../assets/textures/parede_d.png"></imagetexture>
+              <imagetexture containerField="specularTexture"
+                url="../assets/textures/parede_s.png"></imagetexture>
+              <imagetexture containerField="normalTexture"
+                url="../assets/textures/parede_n.png"></imagetexture>
+              </commonsurfaceshader>
+            </appearance>
+              <indexedfaceset 
+                coordIndex="
+                  1 0 4 5 -1
+                  6 2 1 5 -1
+                  6 7 3 2 -1
+                  0 3 7 4 -1
+                  2 3 0 1 -1
+                  6 5 4 7 -1
+                "
+                texCoordIndex="
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                  0 1 2 3 -1
+                ">
+                <coordinate point="
+                  0.10   0.33    0
+                  0.10   0.6     0
+                  -0.10  0.6     0
+                  -0.10  0       0
+
+                  0.10   0.33    -0.2
+                  0.10   0.6     -0.2
+                  -0.10  0.6     -0.2
+                  -0.10  0       -0.2
+                ">
+                </coordinate>
+                <texturecoordinate point="
+                  0    0
+                  1    0
+                  1    1
+                  0    1
+                  ">
+                </texturecoordinate>
+              </indexedfaceset>
+          </shape>
+        </transform>
+      </transform>
+    </transform>
+
+      <Background id='Sky'
+        skyAngle='0.8,
+                  1.3,
+                  1.4,
+                  1.5708'
+        skyColor='0.21 0.31 0.59,
+                  0.33 0.45 0.7,
+                  0.57 0.66 0.85,
+                  0.6 0.73 0.89,
+                  0.7 0.83 0.98'
+      />
+
+  </scene>
+</x3d>
