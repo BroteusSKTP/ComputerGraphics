@@ -52,7 +52,7 @@ A declarative 3D scene built with X3DOM featuring a complete outdoor environment
 
 **Techniques Applied:**
 - **Hierarchical Structure:** Organized multiple scene members (house, roof, doors, windows, gate, chimney, trees, stones) each with individual IDs.
-- **Skeletal Animation:** Implemented member-based animation system where each component (roof left/right, walls, door, chimney) has independent translation and rotation properties.
+- **Skeletal Animation:** Implemented member-based animation system where each component (roof left/right, walls, door, chimney) has independent translation and rotation properties. <br>&nbsp;
 - **Texture Mapping:** Applied PBR (Physically Based Rendering) textures including: <br>&nbsp;
   - Diffuse maps (base colors).
   - Specular maps (shine/reflectivity).
@@ -67,7 +67,7 @@ A 2D top-down endless driving with follower, demonstrating parallax scrolling an
 
 **Techniques Applied:**
 - **Procedural Drawing:** Hand-coded all visual elements (grass, roads, lines, trees, car) using Canvas 2D API.
-- **Parallax Animation:** Implemented depth-based scrolling where road lines and trees move at different velocities based on distance.
+- **Parallax Animation:** Implemented depth-based scrolling where road lines and trees move at different velocities based on distance. <br>&nbsp;
 - **Compound Objects:** Built complex objects like: <br>&nbsp;
   - Car with mirrors, lights, wheels, and windshield.
   - Trees with trunks (rectangles) and foliage (circles).
@@ -103,4 +103,5 @@ An interactive game where the player controls an ariete (battering ram) to break
 ![3JS Demo](./3JS/assets/Image.png)
 ![C2D Demo](./C2D/assets/Image.png)
 ![SVG Demo](./SVG/assets/Image.png)
+
 ![X3D Demo](./X3D/assets/Image.png)
