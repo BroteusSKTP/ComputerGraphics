@@ -99,11 +99,13 @@ An interactive game where the player controls an ariete (battering ram) to break
 - **The `lib/` folders are required** - they contain the necessary libraries for the projects to work.
 - The images below are placeholders. Please run the respective HTML files in each project folder to see the actual animations and interactions in action.
 
+---
+
 ## Visual Results
-![3JS Demo](./3JS/assets/Image.png)
-![C2D Demo](./C2D/assets/Image.png)
-![SVG Demo](./SVG/assets/Image.png)
-![X3D Demo](./X3D/assets/Image.png)
 
+| 3JS Demo | C2D Demo | SVG Demo | X3D Demo |
+| :---: | :---: | :---: | :---: |
+| ![3JS Demo](./3JS/assets/Image.png) | ![C2D Demo](./C2D/assets/Image.png) | ![SVG Demo](./SVG/assets/Image.png) | ![X3D Demo](./X3D/assets/Image.png) |
 
-
+---
+[⬅️ **Back to My Learning Journey**](https://github.com/BroteusSKTP/BroteusSKTP/blob/main/LearningLabs.md)
