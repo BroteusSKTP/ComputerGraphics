@@ -62,13 +62,13 @@ A declarative 3D scene built with X3DOM featuring a complete outdoor environment
 
 ---
 
-### **C2D - Endless Driving Game**
+### **C2D - Endless Driving Chase**
 A 2D top-down endless driving with follower, demonstrating parallax scrolling and procedural drawing.
 
 **Techniques Applied:**
 - **Procedural Drawing:** Hand-coded all visual elements (grass, roads, lines, trees, car) using Canvas 2D API.
 - **Parallax Animation:** Implemented depth-based scrolling where road lines and trees move at different velocities based on distance. <br>&nbsp;
-- **Compound Objects:** Built complex objects like: <br>&nbsp;
+- **Compound Objects:** <br>&nbsp;
   - Car with mirrors, lights, wheels, and windshield.
   - Trees with trunks (rectangles) and foliage (circles).
   - Multi-lane roads with continuous marking lines. <br>&nbsp;
@@ -104,4 +104,5 @@ An interactive game where the player controls an ariete (battering ram) to break
 ![C2D Demo](./C2D/assets/Image.png)
 ![SVG Demo](./SVG/assets/Image.png)
 ![X3D Demo](./X3D/assets/Image.png)
+
 
