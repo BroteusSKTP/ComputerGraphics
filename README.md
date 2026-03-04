@@ -47,8 +47,8 @@ An animated 3D text visualization displaying the word "Enfeitiço" with individu
 - **Camera Controls:** Implemented OrbitControls for interactive 3D exploration.
 ---
 
-### **X3D - 3D Scene with House**
-A declarative 3D scene built with X3DOM featuring a complete outdoor environment with an animated house.
+### **X3D - 3D Scene with Landscape**
+A declarative 3D scene built with X3DOM featuring a complete outdoor environment with an animated landscape.
 
 **Techniques Applied:**
 - **Hierarchical Structure:** Organized multiple scene members (house, roof, doors, windows, gate, chimney, trees, stones) each with individual IDs.
@@ -104,5 +104,6 @@ An interactive game where the player controls an ariete (battering ram) to break
 ![C2D Demo](./C2D/assets/Image.png)
 ![SVG Demo](./SVG/assets/Image.png)
 ![X3D Demo](./X3D/assets/Image.png)
+
 
 
