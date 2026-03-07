@@ -1,105 +1,77 @@
 # Computer Graphics
 
-A collection of graphics programming labs developed using Node.js and various Web Graphics standards.
+A collection of graphics programming labs developed with Node.js and multiple web graphics standards.
+
+## Overview
+This repository presents projects that explore different web graphics approaches, from immediate-mode 2D rendering to declarative and programmable 3D pipelines.
 
 ## Repository Structure
+- [**/3JS**](./3JS) - Three.js module with assets, source files, and library dependencies.
+- [**/C2D**](./C2D) - Canvas 2D module with animation sources and related assets.
+- [**/SVG**](./SVG) - SVG module with interactive animation sources and assets.
+- [**/X3D**](./X3D) - X3DOM/X3D module with source files, textures, and libraries.
 
-```
-ComputerGraphics/
-├── 3JS/                    # Three.js (WebGL wrapper)
-│   ├── assets/
-│   │   └── textures/       # Texture images
-│   └── src/
-│       ├── Animação_3JS.html
-│       ├── Animação_3JS.js
-│       └── lib/            # Libraries (Three.js)
-│
-├── C2D/                    # Canvas 2D
-│   ├── assets/
-│   └── src/
-│
-├── SVG/                    # Scalable Vector Graphics
-│   ├── assets/
-│   └── src/
-│
-├── X3D/                    # Extensible 3D (X3DOM)
-│   ├── assets/
-│   │   └── textures/       # Material and texture images
-│   └── src/
-│       ├── Animação.x3d
-│       ├── Animação_X3D.html
-│       ├── Animação_X3D.js
-│       └── lib/            # Libraries (X3DOM)
-│
-└── README.md
-```
-
-## Project Descriptions
+## Project Details
 
 ### **3JS - "Enfeitiço" (The Spell)**
-An animated 3D text visualization displaying the word "Enfeitiço" with individually animated letters.
+An animated 3D text visualization of the word "Enfeitiço," with individually animated letters.
 
 **Techniques Applied:**
-- **Manual Letter Construction:** Each letter (E, N, C, H, A, T, E, D, O) was created manually using Three.js. `ExtrudeGeometry` with custom coordinates and bevel parameters.
+- **Manual Letter Construction:** Each letter (E, N, F, I, T, Ç, O) was created manually using Three.js. `ExtrudeGeometry` with custom coordinates and bevel parameters.
 - **Texture Mapping:** Applied procedural texture (MagicPattern.png) as background.
 - **Material & Lighting:** Used Phong materials with shininess effects, ambient lighting, and multiple spot lights for dramatic shadows.
 - **Animation Framework:** Integrated Tween.js for smooth letter animations and camera movement.
 - **Camera Controls:** Implemented OrbitControls for interactive 3D exploration.
----
 
 ### **X3D - 3D Scene with Landscape**
-A declarative 3D scene built with X3DOM featuring a complete outdoor environment with an animated landscape.
+A declarative 3D scene built with X3DOM, featuring a complete outdoor environment and an animated landscape.
 
 **Techniques Applied:**
-- **Hierarchical Structure:** Organized multiple scene members (house, roof, doors, windows, gate, chimney, trees, stones) each with individual IDs.
-- **Skeletal Animation:** Implemented member-based animation system where each component (roof left/right, walls, door, chimney) has independent translation and rotation properties. <br>&nbsp;
-- **Texture Mapping:** Applied PBR (Physically Based Rendering) textures including: <br>&nbsp;
+- **Hierarchical Structure:** Organized multiple scene members (house, roof, doors, windows, chimney, trees, stones) each with individual IDs.
+- **Skeletal Animation:** Implemented member-based animation system where each component (roof left/right, walls, door, chimney) has independent translation and rotation properties.
+- **Texture Mapping:** Applied PBR (Physically Based Rendering) textures including:
+
   - Diffuse maps (base colors).
   - Specular maps (shine/reflectivity).
-  - Normal maps (surface detail without geometry). <br>&nbsp;
+  - Normal maps (surface detail without geometry).
 - **Geometry Indexing:** Used IndexedFaceSet for complex shapes (rock geometry, roof structures) with texture coordination.
 - **Lighting & Environment:** Added directional light (sun) with rotation animation and gradient background sky.
 
----
-
 ### **C2D - Endless Driving Chase**
-A 2D top-down endless driving with follower, demonstrating parallax scrolling and procedural drawing.
+A top-down 2D endless driving chase with a follower vehicle, demonstrating parallax scrolling and procedural rendering.
 
 **Techniques Applied:**
 - **Procedural Drawing:** Hand-coded all visual elements (grass, roads, lines, trees, car) using Canvas 2D API.
-- **Parallax Animation:** Implemented depth-based scrolling where road lines and trees move at different velocities based on distance. <br>&nbsp;
-- **Compound Objects:** <br>&nbsp;
+- **Parallax Animation:** Implemented depth-based scrolling where road lines and trees move at different velocities based on distance.
+- **Compound Objects:**
+
   - Car with mirrors, lights, wheels, and windshield.
   - Trees with trunks (rectangles) and foliage (circles).
-  - Multi-lane roads with continuous marking lines. <br>&nbsp;
+  - Multi-lane roads with continuous marking lines.
 - **Collision Detection:** Implemented hit-detection system between car and tree elements.
 - **Transform Matrices:** Applied rotation and translation transforms for vehicle components.
 
----
-
 ### **SVG - Battering Ram Gate Game**
-An interactive game where the player controls an ariete (battering ram) to break through moving doors.
+An interactive game where the player controls a battering ram to break through moving gates.
 
 **Techniques Applied:**
 - **Interactive SVG Manipulation:** Dynamically transformed SVG components using translate/scale attributes.
-- **Vector-Based Graphics:** Built all game elements as scalable vectors (ariete, doors).
+- **Vector-Based Graphics:** Built all game elements as scalable vectors (battering ram, doors).
 - **Physics Simulation:** Implemented movement system with velocity, acceleration, and boundary constraints.
-- **Collision Detection:** Created hitbox-based collision between ariete and doors with game state management. <br>&nbsp;
-- **Game Logic:** <br>&nbsp;
+- **Collision Detection:** Created hitbox-based collision between the battering ram and doors with game state management.
+- **Game Logic:**
+
   - Multi-phase system (waiting → playing → game over).
   - Dynamic door spawning at random heights.
   - Points calculation based on time elapsed.
-  - Keyboard input handling (W/S movement, R restart). <br>&nbsp;
+  - Keyboard input handling (W/S movement, R restart).
 - **DOM Integration:** Used JavaScript to read/write SVG attributes dynamically for real-time updates.
 
----
 
 ## Important Notes
-
 - **The `lib/` folders are required** - they contain the necessary libraries for the projects to work.
-- The images below are placeholders. Please run the respective HTML files in each project folder to see the actual animations and interactions in action.
-
----
+- The images below are placeholders. Run the corresponding HTML files in each project folder to view the actual animations and interactions.
+- Documentation wording and repository-structure organization were refined with AI assistants (GitHub Copilot and Google Gemini). All AI-generated outputs were critically reviewed and validated to ensure technical accuracy and content integrity.
 
 ## Visual Results
 
