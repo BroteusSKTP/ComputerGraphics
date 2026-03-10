@@ -70,6 +70,7 @@ An interactive game where the player controls a battering ram to break through m
 
 ## Important Notes
 - **The `lib/` folders are required** - they contain the necessary libraries for the projects to work.
+- Some project names, source comments, and coursework-related materials are in Portuguese, as provided in the original course context.
 - The images below are placeholders. Run the corresponding HTML files in each project folder to view the actual animations and interactions.
 - Documentation wording and repository-structure organization were refined with AI assistants (GitHub Copilot and Google Gemini). All AI-generated outputs were critically reviewed and validated to ensure technical accuracy and content integrity.
 
